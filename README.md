@@ -1,16 +1,15 @@
-## Hi there 👋
+# Emily Martin: personal academic website
 
-<!--
-**emilyjmartin/emilyjmartin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Static HTML/CSS site, no build step required.
 
-Here are some ideas to get you started:
+## Publish on GitHub Pages (free)
+1. On GitHub, create a **public** repository named exactly `YOUR-USERNAME.github.io`.
+2. Upload all files in this folder (index.html, research.html, publications.html, teaching.html, style.css, README.md) to the repo root, plus an `assets/` folder for images.
+3. Repo → Settings → Pages → Source: "Deploy from a branch" → `main` / root → Save.
+4. Your site will be live at `https://YOUR-USERNAME.github.io` within a minute or two.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Things to fill in
+- `index.html`: add a photo (`assets/emily.jpg`) and your Google Scholar URL.
+- `research.html`: replace the dashed figure boxes with `<img src="assets/figure.png" alt="...">` and tune the abstracts.
+- `publications.html`: add DOI links when papers are published; add your Scholar URL.
+- Search all files for `TODO` to find every spot.
