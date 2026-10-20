@@ -3,55 +3,119 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Emily Martin | Snake Ecology &amp; Evolution</title>
-<meta name="description" content="Emily Martin, PhD student in Biological Sciences at the University of Idaho, studying snake clutch-size evolution and translocation outcomes in prairie rattlesnakes.">
+<title>Emily Martin | Evolutionary Ecologist</title>
+<meta name="description" content="Emily Martin is a PhD student at the University of Idaho studying trait evolution, clutch size variation, tree frog acoustic signals, and pit viper translocation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-<header class="site"><div class="inner">
-  <a class="brand" href="index.html">Emily Martin</a>
-  <nav>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html">Emily Martin<span>.</span></a>
+  <nav aria-label="Main">
     <a class="active" href="index.html">Home</a>
     <a href="research.html">Research</a>
     <a href="publications.html">Publications</a>
     <a href="teaching.html">Teaching &amp; Outreach</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="cv.html">CV</a>
   </nav>
 </div></header>
 
-<main>
-  <section class="hero">
+<section class="hero">
+  <div class="wrap">
     <div>
+      <div class="eyebrow">PhD Student &middot; Biological Sciences &middot; University of Idaho</div>
       <h1>Emily Martin</h1>
-      <p class="subtitle">PhD Candidate, Biological Sciences · University of Idaho<br>NSF Graduate Research Fellow</p>
-      <p class="lead">I study snakes at two scales. Evolutionarily, I ask why clutch size varies so much among snake species and across geography. Practically, I ask what happens to rattlesnakes when people move them out of harm's way, and why some do not survive.</p>
-      <p>My fieldwork centers on prairie rattlesnakes (<em>Crotalus viridis</em>) in Wyoming, where I track translocated snakes with surgically implanted radio transmitters. I work with state and federal wildlife agencies to turn the results into practical guidance for people who share the landscape with rattlesnakes.</p>
-      <a class="btn" href="research.html">See my research</a>
-      <a class="btn alt" href="publications.html">Publications</a>
+      <p class="tagline">Evolutionary ecologist studying trait evolution and pit viper translocation</p>
+      <p class="interests">I use phylogenetic comparative methods, bioacoustics, and movement modeling to answer questions about life history evolution and to address conflict between humans and wildlife. My current research interests include the mechanisms that underlie clutch size variation, the evolution of tree frog advertising calls, and the outcomes of post-translocation mortality in pit vipers.</p>
+      <a class="btn" href="research.html">Explore my research</a>
+      <a class="btn ghost" href="#contact">Contact</a>
+      <div class="chips">
+        <a href="mailto:emilymartin@uidaho.edu">Email</a>
+        <a href="https://orcid.org/0009-0001-3008-6082" target="_blank" rel="noopener">ORCID</a>
+        <a href="https://www.researchgate.net/profile/Emily-Martin-101" target="_blank" rel="noopener">ResearchGate</a>
+      </div>
     </div>
-    <!-- Replace the box below with your photo: save an image as assets/emily.jpg and swap in <img src="assets/emily.jpg" alt="Emily Martin holding a prairie rattlesnake in the field"> -->
-    <div class="photo" id="photo">
-      <span>Add a field photo here<br>(assets/emily.jpg)</span>
+    <!-- HOME PHOTO: upload a photo named emily.jpg (or .png) into the "assets" folder and it appears here automatically.
+         Edit the alt text below to describe your photo. -->
+    <div class="photo-wrap">
+      <div class="frame photo">
+        <span>Add your photo:<br>assets/emily.jpg</span>
+        <img data-img="assets/emily" alt="Emily Martin in the field">
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="contact">
-    <p><strong>Contact</strong></p>
-    <p>Email: <a href="mailto:emilymartin@uidaho.edu">emilymartin@uidaho.edu</a></p>
-    <p>Department of Biological Sciences, University of Idaho, Moscow, ID</p>
-    <p>
-      <a href="https://scholar.google.com/">Google Scholar</a>
-      <!-- TODO: replace with your Google Scholar profile URL -->
-    </p>
-  </section>
+<section class="section">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2>Research themes</h2>
+    <p class="sub">Three questions run through my work.</p>
+    <div class="grid3">
+      <div class="card">
+        <span class="num">01</span>
+        <h3>Life history evolution</h3>
+        <p>Phylogenetic comparative analyses of clutch size variation, both across snake species and within rattlesnakes across their range.</p>
+      </div>
+      <div class="card">
+        <span class="num">02</span>
+        <h3>Signal evolution</h3>
+        <p>Bioacoustic and comparative approaches to the mechanisms behind variation in tree frog advertising calls.</p>
+      </div>
+      <div class="card">
+        <span class="num">03</span>
+        <h3>Human&ndash;wildlife conflict</h3>
+        <p>Movement modeling and field research on the outcomes of pit viper translocation, including post-translocation mortality.</p>
+      </div>
+    </div>
+    <p class="more"><a href="research.html">See all projects &rarr;</a></p>
+  </div>
+</section>
 
-  <h2>Currently</h2>
-  <ul class="plain">
-    <li>Finishing my dissertation, <em>Evolution of Clutch Size and the Causes of Translocation Mortality in Snakes</em>, advised by Courtney Conway and Luke Harmon.</li>
-    <li>Sharing translocation results with Wyoming Game and Fish and Sinks Canyon State Park.</li>
-    <li>Leading workshops on rattlesnake capture and transmitter implantation for wildlife professionals.</li>
-  </ul>
-</main>
+<section class="section alt">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2>In the news</h2>
+    <p class="sub">My work on shedding aggregations in prairie rattlesnakes has been covered by several outlets.</p>
+    <div class="news">
+      <a href="https://wyofile.com/the-rattlesnakes-of-sinks-canyon-some-lack-rattles-others-den-alone-but-shed-their-skin-with-friends/" target="_blank" rel="noopener">
+        <span class="outlet">WyoFile</span>
+        <span class="headline">The Rattlesnakes of Sinks Canyon: Some Lack Rattles, Others Den Alone but Shed Their Skins with Friends</span>
+        <span class="date">September 2, 2026</span>
+      </a>
+      <a href="https://www.discoverwildlife.com/animal-facts/reptiles/prairie-rattlesnake-shedding-aggregation" target="_blank" rel="noopener">
+        <span class="outlet">Discover Wildlife</span>
+        <span class="headline">&lsquo;We Would Find Piles of Rattlesnakes.&rsquo; Scientists Witness Undocumented Snake Behaviour in Wyoming&rsquo;s Mountains</span>
+        <span class="date">August 19, 2026</span>
+      </a>
+      <a href="https://wildlife.org/rattlesnakes-shed-in-groups/" target="_blank" rel="noopener">
+        <span class="outlet">The Wildlife Society</span>
+        <span class="headline">Rattlesnakes Shed in Groups</span>
+        <span class="date">July 7, 2026</span>
+      </a>
+    </div>
+    <p class="more"><a href="teaching.html#media">All media coverage &rarr;</a></p>
+  </div>
+</section>
 
-<footer>© 2026 Emily Martin · University of Idaho</footer>
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="rule"></div>
+    <h2>Contact</h2>
+    <p class="sub">I welcome questions about my research and opportunities to collaborate.</p>
+    <div class="contact">
+      <div><h3>Email</h3><p><a href="mailto:emilymartin@uidaho.edu">emilymartin@uidaho.edu</a></p></div>
+      <div><h3>Location</h3><p>Department of Biological Sciences<br>University of Idaho<br>Moscow, ID</p></div>
+      <div><h3>ORCID</h3><p><a href="https://orcid.org/0009-0001-3008-6082" target="_blank" rel="noopener">0009-0001-3008-6082</a></p></div>
+      <div><h3>ResearchGate</h3><p><a href="https://www.researchgate.net/profile/Emily-Martin-101" target="_blank" rel="noopener">Emily Martin</a></p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">&copy; 2026 Emily Martin &middot; University of Idaho &middot; Moscow, ID</footer>
 </body>
 </html>

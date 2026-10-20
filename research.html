@@ -4,80 +4,100 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Research | Emily Martin</title>
+<meta name="description" content="Research projects by Emily Martin: shedding aggregations and rattle loss in prairie rattlesnakes, tree frog call evolution, and clutch size variation in snakes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-<header class="site"><div class="inner">
-  <a class="brand" href="index.html">Emily Martin</a>
-  <nav>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html">Emily Martin<span>.</span></a>
+  <nav aria-label="Main">
     <a href="index.html">Home</a>
     <a class="active" href="research.html">Research</a>
     <a href="publications.html">Publications</a>
     <a href="teaching.html">Teaching &amp; Outreach</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="cv.html">CV</a>
   </nav>
 </div></header>
 
-<main>
-  <h1>Research</h1>
-  <p class="lead">My dissertation connects evolutionary questions about snake reproduction with applied questions about snake conservation and human–wildlife conflict. Funded by an NSF Graduate Research Fellowship.</p>
+<section class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Research</div>
+    <h1>Projects</h1>
+    <p>My dissertation, <em>Evolution of Clutch Size and the Causes of Translocation Mortality in Snakes</em>, is advised by Courtney Conway and Luke Harmon and supported by an NSF Graduate Research Fellowship. Alongside it, I study snake natural history and the evolution of frog calls.</p>
+  </div>
+</section>
 
-  <!-- HOW TO EDIT: each project is one <article class="card">. Replace the abstract text with your own,
-       swap each <div class="ph"> for <img src="assets/yourfigure.png" alt="..."> and add the paper link. -->
+<section class="section">
+  <div class="wrap">
 
-  <article class="card" id="clutch-size">
-    <span class="tag">Dissertation Chapter</span>
-    <h3>Evolution of Clutch Size in Snakes</h3>
-    <p><!-- TODO: replace with your own abstract, 1 paragraph -->
-    Clutch size varies enormously among snakes, from a single egg to dozens of offspring, and also varies geographically within groups of related species. Using a phylogenetic comparative approach, this project examines how ecology, body size, climate, and geography relate to clutch-size variation across snakes, and what these patterns reveal about the evolution of reproductive strategies. Advisor: Luke Harmon.</p>
-    <div class="figs">
-      <figure><div class="ph">Figure 1: add a phylogeny with clutch size mapped on tips</div><figcaption>Replace with your phylogeny or trait-evolution figure.</figcaption></figure>
-      <figure><div class="ph">Figure 2: add a map or plot of geographic clutch-size variation</div><figcaption>Replace with a map or regression plot.</figcaption></figure>
-    </div>
-    <p><span class="tag status">Manuscript in preparation</span></p>
-  </article>
+  <!-- HOW TO EDIT A PROJECT
+       1. Abstract: replace the paragraph text with your full abstract (these are short placeholders built from your one-line summaries).
+       2. Figures: upload images named exactly as shown in the data-img attribute (for example assets/shedding-1.png)
+          and they appear automatically. Edit the figcaption text under each figure.
+       3. Only need one figure? Delete the other <figure>...</figure> block.
+       4. Paper link: add <a class="btn" href="https://doi.org/...">Read the paper</a> inside the meta line. -->
 
-  <article class="card" id="translocation">
-    <span class="tag">Dissertation Chapter</span>
-    <h3>Causes of Translocation Mortality in Prairie Rattlesnakes</h3>
-    <p><!-- TODO: add your actual findings once ready to share -->
-    Moving venomous snakes away from homes and campgrounds is a popular but controversial management tool. This project follows prairie rattlesnakes (<em>Crotalus viridis</em>) at Sinks Canyon State Park, Wyoming, using surgically implanted VHF transmitters to compare survival of translocated and resident snakes and to identify what drives mortality after release. The goal is evidence-based guidance for managers deciding whether, and how, to relocate rattlesnakes. Advisor: Courtney Conway.</p>
-    <div class="figs">
-      <figure><div class="ph">Figure 1: add a survival curve (translocated vs. resident)</div><figcaption>Replace with a Kaplan–Meier or similar survival figure.</figcaption></figure>
-      <figure><div class="ph">Figure 2: add a map of release sites and movements</div><figcaption>Replace with a site map or photo of transmitter implantation.</figcaption></figure>
-    </div>
-    <p><span class="tag status">Manuscript in preparation</span>
-    Presented at the Idaho Chapter of The Wildlife Society (2025) and the Wyoming Game and Fish All-District Meeting (2025).</p>
-  </article>
-
-  <article class="card" id="shedding">
-    <span class="tag">Project</span>
+  <article class="project" id="shedding">
+    <div class="tags"><span class="tag status">Published 2026</span><span class="tag">Ecology &amp; Evolution</span></div>
     <h3>Shedding Aggregations in Prairie Rattlesnakes</h3>
-    <p><!-- TODO: refine abstract to match the manuscript -->
-    Prairie rattlesnakes are often found gathered together while preparing to shed their skin. This project evaluates potential causes of these shedding aggregations, considering ecological and behavioral explanations for why snakes cluster during this vulnerable period.</p>
+    <p>We made a novel observation of prairie rattlesnake (<em>Crotalus viridis</em>) aggregations during ecdysis, the process of shedding skin, and tested competing hypotheses to explain why snakes cluster during this vulnerable period.</p>
     <div class="figs">
-      <figure><div class="ph">Figure 1: add a photo or schematic of an aggregation</div><figcaption>Replace with your figure.</figcaption></figure>
-      <figure><div class="ph">Figure 2: add a key results plot</div><figcaption>Replace with your figure.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 1<br>assets/shedding-1</span><img data-img="assets/shedding-1" alt="Figure from the shedding aggregation study"></div><figcaption>Figure 1: add your caption here.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 2<br>assets/shedding-2</span><img data-img="assets/shedding-2" alt="Second figure from the shedding aggregation study"></div><figcaption>Figure 2: add your caption here.</figcaption></figure>
     </div>
-    <p><span class="tag status">In review: Ecology &amp; Evolution</span></p>
+    <p class="meta"><a class="btn" href="https://doi.org/10.1002/ece3.73311" target="_blank" rel="noopener">Read the paper</a> Martin &amp; Conway (2026), <em>Ecology and Evolution</em> 16(4): e73311.</p>
   </article>
 
-  <article class="card" id="morphology">
-    <span class="tag">Natural History Note</span>
-    <h3>Morphology of the Prairie Rattlesnake</h3>
-    <p><!-- TODO: refine to match the note -->
-    A short natural history note documenting morphological measurements of <em>Crotalus viridis</em> in the northern part of its range, contributing baseline data for a widely distributed but under-measured species.</p>
-    <p><span class="tag status">In review: Herpetological Review</span></p>
+  <article class="project" id="rattleless">
+    <div class="tags"><span class="tag status">Accepted</span><span class="tag">Herpetological Review</span></div>
+    <h3>Rattle Loss in Prairie Rattlesnakes</h3>
+    <p>We documented skeletal and reproductive abnormalities in prairie rattlesnakes (<em>Crotalus viridis</em>) with rattle loss.</p>
+    <div class="figs">
+      <figure class="fig"><div class="frame"><span>Figure 1<br>assets/rattleless-1</span><img data-img="assets/rattleless-1" alt="Figure showing rattle loss in a prairie rattlesnake"></div><figcaption>Figure 1: add your caption here.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 2<br>assets/rattleless-2</span><img data-img="assets/rattleless-2" alt="Second figure on rattle loss"></div><figcaption>Figure 2: add your caption here.</figcaption></figure>
+    </div>
+    <p class="meta">Martin &amp; Conway (2026), <em>Crotalus viridis</em> (Prairie Rattlesnake): morphology. <em>Herpetological Review</em>, accepted for publication.</p>
   </article>
 
-  <h2>Earlier Research</h2>
-  <ul class="plain">
-    <li><strong>Raptor ecology (University of Idaho, 2022):</strong> measured wing-loading area of rough-legged hawks and estimated raptor abundance on the California coast from eBird data.</li>
-    <li><strong>Undergraduate thesis (Bates College, 2014):</strong> sclerochronology of Atlantic soft-shell clams (<em>Mya arenaria</em>) in relation to environmental conditions, advised by William Ambrose.</li>
-  </ul>
+  <article class="project" id="frog-calls">
+    <div class="tags"><span class="tag status">In preparation</span><span class="tag sage">Bioacoustics</span></div>
+    <h3>Evolution of Tree Frog Advertising Calls</h3>
+    <p>We used phylogenetic comparative methods and bioacoustic techniques to test hypotheses explaining the mechanisms of call variation in Rhacophorid tree frogs.</p>
+    <div class="figs">
+      <figure class="fig"><div class="frame"><span>Figure 1<br>assets/frogcalls-1</span><img data-img="assets/frogcalls-1" alt="Figure from the tree frog call study"></div><figcaption>Figure 1: add your caption here.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 2<br>assets/frogcalls-2</span><img data-img="assets/frogcalls-2" alt="Second figure from the tree frog call study"></div><figcaption>Figure 2: add your caption here.</figcaption></figure>
+    </div>
+    <p class="meta">Co-authors: S. Duba, T. Hayes, L. J. Harmon, and K. Corn. &ldquo;Explaining Variation in Acoustic Signals of Tree Frogs,&rdquo; in preparation.</p>
+  </article>
 
-  <h2>Field Experience</h2>
-  <p>Before graduate school I spent a decade as a field biologist on birds (piping plovers, least terns, Northern spotted owls, bobwhite quail), salmonids, amphibians, and small mammals with USGS, Idaho Fish and Game, UNC, and the Mendocino Redwood Company.</p>
-</main>
-<footer>© 2026 Emily Martin · University of Idaho</footer>
+  <article class="project" id="clutch-interspecific">
+    <div class="tags"><span class="tag">Dissertation chapter</span><span class="tag sage">Comparative methods</span></div>
+    <h3>Global Variation in Snake Clutch Size</h3>
+    <p>We used phylogenetic comparative methods to assess global clutch size variation in 940 species of snake.</p>
+    <div class="figs">
+      <figure class="fig"><div class="frame"><span>Figure 1<br>assets/clutch-interspecific-1</span><img data-img="assets/clutch-interspecific-1" alt="Figure showing clutch size variation across snake species"></div><figcaption>Figure 1: add your caption here.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 2<br>assets/clutch-interspecific-2</span><img data-img="assets/clutch-interspecific-2" alt="Second figure on interspecific clutch size variation"></div><figcaption>Figure 2: add your caption here.</figcaption></figure>
+    </div>
+  </article>
+
+  <article class="project" id="clutch-intraspecific">
+    <div class="tags"><span class="tag">Dissertation chapter</span><span class="tag sage">Range-wide analysis</span></div>
+    <h3>Range-Wide Variation in Rattlesnake Clutch Size</h3>
+    <p>We assessed range-wide variation in clutch size of western North American rattlesnakes.</p>
+    <div class="figs">
+      <figure class="fig"><div class="frame"><span>Figure 1<br>assets/clutch-intraspecific-1</span><img data-img="assets/clutch-intraspecific-1" alt="Figure showing geographic variation in rattlesnake clutch size"></div><figcaption>Figure 1: add your caption here.</figcaption></figure>
+      <figure class="fig"><div class="frame"><span>Figure 2<br>assets/clutch-intraspecific-2</span><img data-img="assets/clutch-intraspecific-2" alt="Second figure on range-wide clutch size variation"></div><figcaption>Figure 2: add your caption here.</figcaption></figure>
+    </div>
+  </article>
+
+  </div>
+</section>
+
+<footer class="site">&copy; 2026 Emily Martin &middot; University of Idaho &middot; Moscow, ID</footer>
 </body>
 </html>
